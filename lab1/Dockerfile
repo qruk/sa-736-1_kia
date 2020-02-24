@@ -1,2 +1,2 @@
 FROM alpine
-RUN apk update && apk upgrade && apk add bash && apk add nano
+RUN apk update && apk upgrade && apk add sudo && apk add bash && apk add nano
